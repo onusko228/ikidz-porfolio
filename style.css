@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+}
+html,
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  max-width: 1109px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 24px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 45px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.hero__subtitle {
+  margin-bottom: 106px;
+  color: white;
+}
+.hero__title {
+  padding-top: 267px;
+  margin-top: 0;
+  margin-bottom: 26px;
+  color: white;
+  font-size: 64px;
+}
+.hero__link {
+  color: white;
+}
+.hero {
+  background-image: url("./images/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 768px;
+}
+.header_portfolio {
+  color: white;
+  font-size: 22px;
+}
+.header__nav-list {
+  display: flex;
+  list-style: none;
+  color: white;
+  font-size: 18px;
+  gap: 60px;
+}
+.skills {
+  padding-bottom: 145px;
+  background-color: #fffaf2;
+}
+.skills-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.skills-title {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 600;
+  margin: 0;
+  flex-grow: 1;
+}
+.progress-bar {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 4;
+  height: 24px;
+}
+.loaded {
+  background: #c66c49;
+  width: 80%;
+}
+.unloaded {
+  background: #f5d6ab;
+  width: 20%;
+}
+.skills-content {
+  display: flex;
+  justify-content: space-between;
+}
+.image-container {
+  flex-grow: 1;
+}
+.skills-text {
+  flex-grow: 2;
+}
+.loaded-design {
+  width: 50%;
+}
+.unloaded-design {
+  width: 50%;
+}
+.loaded-frontent {
+  width: 75%;
+}
+.unloaded-frontent {
+  width: 25%;
+}
+.portfolio-pictures {
+  background-image: url(./images/river.jpg);
+  background-repeat: no-repeat;
+  width: 233px;
+  height: 350px;
+  background-position: center;
+}
+.portfolio-text-title {
+  font-size: 18px;
+  font-weight: 600px;
+  line-height: 25px;
+  color: #333;
+}
+.portfolio-description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 350px;
+}
+.portfolio-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.portfolio {
+  padding-bottom: 145;
+}
+.links-list a {
+  font-size: 18px;
+}
+
+/* footer */
+.footer {
+  padding-top: 93px;
+  padding-bottom: 189px;
+  background-color: #fffaf2;
+}
+.footer-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer-text {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-list-item {
+  font-size: 18px;
+}
