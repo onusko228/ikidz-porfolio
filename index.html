@@ -1,43 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="./style.css" />
-</head>
-
-<body>
-  <header class="header container">
-    <p class="header_portfolio">Portfolio</p>
-    <nav>
-      <ul class="header__nav-list">
-        <li class="header__nav-item">Home</li>
-        <li class="header__nav-item">About</li>
-        <li class="header__nav-item">Skills</li>
-        <li class="header__nav-item">Portfolio</li>
-        <li class="header__nav-item">Contact</li>
-      </ul>
-    </nav>
-  </header>
-  <section class="hero">
-    <div class="container">
-      <h1 class="hero__title">Hi, It’s Luniaka Alex</h1>
-      <p class="hero__subtitle">Designer from Vinnitsa, Ukraine</p>
-      <a class="hero__link" href="#">Latest works</a>
-    </div>
-  </section>
-  <section class="about">
-    <div class="container">
-      <h3 class="title">About</h3>
-      <p class="about__text">
-        Hello, my name is Alex.I am 13 years old.I live in Ukraine. My hobby is sport.I think I am good at it. I like to design too. I go on IKIDZ.
-      </p>
-    </div>
-  </section>
-  <section class="skills">
+  <body>
+    <header class="header container">
+      <nav class="header__nav">
+        <p class="header_portfolio">Portfolio</p>
+        <ul class="header__nav-list active">
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#">Home</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#">About</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#">Skills</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <button class="menu" href="#">Menu</button>
+      </nav>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero__title">Hi, It’s Luniaka Alex</h1>
+        <p class="hero__subtitle">Front-end developer from Vinnitsa, Ukraine</p>
+        <a class="hero__link" href="#">Latest works</a>
+      </div>
+    </section>
+    <section class="about">
+      <div class="container">
+        <h3 class="title">About</h3>
+        <p class="about__text">
+          Hello, my name is Alex.I am 13 years old.I live in Ukraine. My hobby
+          is sport.I think I am good at it. I like to design too. I go on IKIDZ.
+        </p>
+      </div>
+    </section>
+    <!-- <section class="skills"> 
     <div class="container">
       <h3 class="title">Skills</h3>
       <div class="skills-content">
@@ -126,7 +137,7 @@
             </ul>
         </div>
     </div>
-</footer>
-</body>
-
+</footer> -->
+  </body>
+  <script src="./index.js"></script>
 </html>

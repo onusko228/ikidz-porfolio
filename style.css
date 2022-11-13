@@ -6,14 +6,16 @@ html,
   box-sizing: border-box;
 }
 .container {
-  width: 100%;
   max-width: 1109px;
+  width: 100%;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 .title {
   font-size: 24px;
 }
+/* ---------- */
 .header {
   display: flex;
   justify-content: space-between;
@@ -24,6 +26,54 @@ html,
   transform: translateX(-50%);
   z-index: 2;
 }
+.header_portfolio {
+  color: white;
+  font-size: 22px;
+}
+.header__nav {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.header__nav-list {
+  display: flex;
+  list-style: none;
+  color: white;
+  font-size: 18px;
+  gap: 60px;
+}
+.header__nav-link {
+  color: white;
+  font-size: 18px;
+}
+.menu {
+  display: none;
+}
+.active {
+  display: flex;
+}
+@media screen and (max-width: 992px) {
+  .header__nav-list {
+    display: flex;
+    position: absolute;
+    top: 70px;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    align-items: flex-end;
+    height: 635px;
+    padding-left: 30px;
+  }
+  .header__nav-link {
+    color: #000;
+  }
+  .menu {
+    display: block;
+  }
+}
+/* ------ */
 .hero__subtitle {
   margin-bottom: 106px;
   color: white;
@@ -59,17 +109,6 @@ html,
   left: 0;
   background-color: rgba(0, 0, 0, 0.344);
   z-index: -1;
-}
-.header_portfolio {
-  color: white;
-  font-size: 22px;
-}
-.header__nav-list {
-  display: flex;
-  list-style: none;
-  color: white;
-  font-size: 18px;
-  gap: 60px;
 }
 .skills {
   padding-bottom: 145px;
